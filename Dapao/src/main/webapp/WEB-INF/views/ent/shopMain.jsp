@@ -7,7 +7,7 @@
 </head>
 <body>
 
-	<h1>사업메인페이지(entMain)</h1>
+	<h1>사업메인페이지(shopMain)</h1>
 	<div class="ent_container">
 		<div class="img_container">
 			<div class="ent_img">

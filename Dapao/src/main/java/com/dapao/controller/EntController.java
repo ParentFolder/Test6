@@ -12,24 +12,24 @@ public class EntController {
 
 	private static final Logger logger = LoggerFactory.getLogger(EntController.class);
 
-	// http://localhost:8088/ent/entMain
-	@RequestMapping(value = "/entMain", method = RequestMethod.GET)
+	// http://localhost:8088/ent/shopMain
+	@RequestMapping(value = "/shopMain", method = RequestMethod.GET)
 	public void entMainGET() {
-		logger.debug(" entMainGET() ");
-		logger.debug(" ¿¬°áµÈ ºäÆäÀÌÁö(/views/ent/entMain.jsp)¸¦ Ãâ·Â ");
+		logger.debug(" shopMainGET() ");
+		logger.debug(" ì—°ê²°ëœ ë·°í˜ì´ì§€(/views/ent/shopMain.jsp) ì¶œë ¥ ");
 	}
 
 	// http://localhost:8088/ent/productManage
 	@RequestMapping(value = "/productManage", method = RequestMethod.GET)
 	public void productManageGET() {
 		logger.debug(" entMainGET() ");
-		logger.debug(" ¿¬°áµÈ ºäÆäÀÌÁö(/views/ent/productManage.jsp)¸¦ Ãâ·Â ");
+		logger.debug(" ì—°ê²°ëœ ë·°í˜ì´ì§€(/views/ent/productManage.jsp)ì¶œë ¥ ");
 	}
 
 	// http://localhost:8088/ent/order
 	@RequestMapping(value = "/order", method = RequestMethod.GET)
 	public void orderGET() {
 		logger.debug(" orderGET() ");
-		logger.debug(" ¿¬°áµÈ ºäÆäÀÌÁö(/views/board/order.jsp)¸¦ Ãâ·Â ");
+		logger.debug(" ì—°ê²°ëœ ë·°í˜ì´ì§€(/views/board/order.jsp)ì¶œë ¥ ");
 	}
 }
